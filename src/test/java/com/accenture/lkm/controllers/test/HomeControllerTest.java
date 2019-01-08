@@ -39,7 +39,7 @@ public class HomeControllerTest {
 	public void testHomeGreeting() {
 		HomeController hc = new HomeController();
 		ModelAndView mv = hc.home();
-		assertEquals("Greeting Missing!", "Hello World!" , mv.getModelMap().get("greeting"));
+		assertEquals("Greeting Missing!", "Hello Pritam!" , mv.getModelMap().get("greeting"));
 	}
 	
 	@AfterClass

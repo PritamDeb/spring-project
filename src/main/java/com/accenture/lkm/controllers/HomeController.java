@@ -12,7 +12,7 @@ public class HomeController {
 	public ModelAndView home() {
 		ModelAndView mv = new ModelAndView("index");
 		mv.addObject("title", "Accenture - High performance. Delivered");
-		mv.addObject("greeting", "Hello World!");
+		mv.addObject("greeting", "Hello Pritam!");
 		return mv;
 	}
 	
